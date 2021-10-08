@@ -5,7 +5,7 @@ import FlashMessage, {
 } from 'react-native-flash-message';
 import { Runtime, composeScreen } from '@genx/react';
 
-Runtime.register('react-native-flash-message', { showMessage, hideMessage });
+Runtime.register('flash-message', { showMessage, hideMessage });
 
 export default function initialize({ position = 'top' } = {}) {
     composeScreen((elScreen) => (
